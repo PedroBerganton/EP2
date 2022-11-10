@@ -160,6 +160,7 @@ quest = [{'titulo': 'Qual o resultado da operação 57 + 32?',
           'opcoes': {'A': 'Uma banda de Rock', 'B': 'Uma marca de luxo', 'C': 'Cidade Francesa', 'D': 'Morte de tecido orgânico'},
           'correta': 'D'}
 
+
           {'titulo': 'Quem era o presidente do Brasil em 1953?',
           'nivel': 'medio',
           'opcoes': {'A': 'Dilma', 'B': 'JK', 'C': 'Getulio Vargas', 'D': 'FHC'},
@@ -168,61 +169,107 @@ quest = [{'titulo': 'Qual o resultado da operação 57 + 32?',
           {'titulo': 'O que é Necrose?',
           'nivel': 'dificil',
           'opcoes': {'A': 'Uma banda de Rock', 'B': 'Uma marca de luxo', 'C': 'Cidade Francesa', 'D': 'Morte de tecido orgânico'},
-          'correta': 'D'}]
+          'correta': 'D'}
 
-#a partir dessa pergunta, começam as 20 que a gente criou:
+         {'titulo': 'Quem era o presidente do Brasil em 1953?',
+         'nivel': 'medio',
+        'opcoes': {'A': 'Dilma', 'B': 'JK', 'C': 'Getulio Vargas', 'D': 'FHC'},
+        'correta': 'C'}
 
-{'titulo': 'Quem era o presidente do Brasil em 1953?',
-'nivel': 'medio',
-'opcoes': {'A': 'Dilma', 'B': 'JK', 'C': 'Getulio Vargas', 'D': 'FHC'},
-'correta': 'C'}
+        {'titulo': 'Onde fica o Egito?',
+        'nivel': 'facil',
+        'opcoes': {'A': 'Norte da Africa', 'B': 'Oeste Europeu', 'C': 'Sul da Afica', 'D': 'Nordeste Asiatico'},
+        'correta': 'A'}
 
-{'titulo': 'Onde fica o Egito?',
-'nivel': 'facil',
-'opcoes': {'A': 'Norte da Africa', 'B': 'Oeste Europeu', 'C': 'Sul da Afica', 'D': 'Nordeste Asiatico'},
-'correta': 'A'}
+        {'titulo': 'Há quantos anos terminou a segunda Guerra Mundial?',
+        'nivel': 'facil',
+        'opcoes': {'A': '70 anos', 'B': '77 anos', 'C': '65 anos', 'D': '34 anos'},
+        'correta': 'B'}
 
-{'titulo': 'Há quantos anos terminou a segunda Guerra Mundial?',
-'nivel': 'facil',
-'opcoes': {'A': '70 anos', 'B': '77 anos', 'C': '65 anos', 'D': '34 anos'},
-'correta': 'B'}
+        {'titulo': 'Qual é o ano da Independência do Brasil?',
+        'nivel': 'media',
+        'opcoes': {'A': '1822', 'B': '1877', 'C': '1865', 'D': '1910'},
+        'correta': 'A'}
 
-{'titulo': 'Qual é o ano da Independência do Brasil?',
-'nivel': 'media',
-'opcoes': {'A': '1822', 'B': '1877', 'C': '1865', 'D': '1910'},
-'correta': 'A'}
+        {'titulo': 'Qual é a capital da Espanha?',
+        'nivel': 'facil',
+        'opcoes': {'A': 'Barcelona', 'B': 'Madri', 'C': 'Amsterdam', 'D': 'Valencia'},
+        'correta': 'B'}
 
-{'titulo': 'Qual é a capital da Espanha?',
-'nivel': 'facil',
-'opcoes': {'A': 'Barcelona', 'B': 'Madri', 'C': 'Amsterdam', 'D': 'Valencia'},
-'correta': 'B'}
+        {'titulo': 'Quem descobriu as Américas?',
+        'nivel': 'facil',
+        'opcoes': {'A': 'Donald Trump', 'B': 'Pedro Alvares Cabral', 'C': 'Cristóvão Colombo', 'D': 'Gandhi'},
+        'correta': 'C'}
 
-{'titulo': 'Quem descobriu as Américas?',
-'nivel': 'facil',
-'opcoes': {'A': 'Donald Trump', 'B': 'Pedro Alvares Cabral', 'C': 'Cristóvão Colombo', 'D': 'Gandhi'},
-'correta': 'C'}
+        {'titulo': 'Em que ano iniciou a Revolução Francesa?',
+        'nivel': 'medio',
+        'opcoes': {'A': '1799', 'B': '1823', 'C': '1917', 'D': '1888'},
+        'correta': 'A'}
 
-{'titulo': 'Em que ano iniciou a Revolução Francesa?',
-'nivel': 'medio',
-'opcoes': {'A': '1799', 'B': '1823', 'C': '1917', 'D': '1888'},
-'correta': 'A'}
+        {'titulo': 'Qual o nome dos protagonistas do jogo The Last Of Us?',
+        'nivel': 'medio',
+        'opcoes': {'A': 'Joseph e Elliot', 'B': 'Joel e Ellie', 'C': 'Jonathan e Ellen', 'D': 'Juca e Lucia'},
+        'correta': 'B'}
 
-{'titulo': 'Qual o nome dos protagonistas do jogo The Last Of Us?',
-'nivel': 'medio',
-'opcoes': {'A': 'Joseph e Elliot', 'B': 'Joel e Ellie', 'C': 'Jonathan e Ellen', 'D': 'Juca e Lucia'},
-'correta': 'B'}
+        {'titulo': 'Qual o nome do rival do personagem Bob Esponja?',
+        'nivel': 'facil',
+        'opcoes': {'A': 'Pedro', 'B': 'Plonquion', 'C': 'Plancton', 'D': 'Pinoquio'},
+        'correta': 'C'}
 
-{'titulo': 'Qual o nome do rival do personagem Bob Esponja?',
-'nivel': 'facil',
-'opcoes': {'A': 'Pedro', 'B': 'Plonquion', 'C': 'Plancton', 'D': 'Pinoquio'},
-'correta': 'C'}
+        {'titulo': 'Qual a sigla do vestibular estudantil estaduniense?',
+        'nivel': 'facil',
+        'opcoes': {'A': 'ENEM', 'B': 'MET', 'C': 'YONG', 'D': 'SAT'},
+        'correta': 'D'}
 
-{'titulo': 'Qual a sigla do vestibular estudantil estaduniense?',
-'nivel': 'facil',
-'opcoes': {'A': 'ENEM', 'B': 'MET', 'C': 'YONG', 'D': 'SAT'},
-'correta': 'D'}
+        {'titulo': 'Quanto vale 513x890?',
+        'nivel': 'dificil',
+        'opcoes': {'A': '100000', 'B': '456570', 'C': '500000', 'D': '789654'},
+        'correta': 'B'}
 
+        {'titulo': 'Quem foi Pablo Escobar?',
+        'nivel': 'facil',
+        'opcoes': {'A': 'Educador brasileiro?', 'B': 'Narcotraficante', 'C': 'Policial Federal', 'D': 'Estudante do Insper'},
+        'correta': 'B'}
 
+        {'titulo': 'Onde fica o Monte Everest?',
+        'nivel': 'dificil',
+        'opcoes': {'A': 'Espanha', 'B': 'Asia', 'C': 'Sudeste dos EUA', 'D': 'Holanda'},
+        'correta': 'B'}
+
+        {'titulo': 'Quem é o personagem principal de Velozes e Furiosos?',
+        'nivel': 'facil',
+        'opcoes': {'A': 'Vin Diesel', 'B': 'Giulia', 'C': 'Gabriel Burher', 'D': 'Pinoquio'},
+        'correta': 'A'}
+
+        {'titulo': 'Qual é o nome da boneca Barbie?',
+        'nivel': 'medio',
+        'opcoes': {'A': 'Barbara Millicent Roberts', 'B': 'Bella gonsalvez', 'C': 'Beatriz Angela', 'D': 'Bianca Alvargaz'},
+        'correta': 'A'}
+
+        {'titulo': 'Quem inventou a lata de conservar alimentos em 1810?',
+        'nivel': 'dificil',
+        'opcoes': {'A': 'Pedro Calleri', 'B': 'Pedro Berganton', 'C': 'Pedro Aguiar', 'D': 'Pedro Durant'},
+        'correta': 'D'}
+
+        {'titulo': 'Quantos jogadores há em uma equipe de polo aquático??',
+        'nivel': 'medio',
+        'opcoes': {'A': '!7', 'B': 'Tres', 'C': 'Doze', 'D': 'Sete'},
+        'correta': 'D'}
+
+        {'titulo': 'Qual a temperatura média de Vênus?',
+        'nivel': 'dificil',
+        'opcoes': {'A': '25 C', 'B': '150 C', 'C': '460 C', 'D': '800 C'},
+        'correta': 'C'}
+
+        {'titulo': 'Em qual país encontra-se o Coliseu?',
+        'nivel': 'facil',
+        'opcoes': {'A': 'Espanha', 'B': 'Italia', 'C': 'Holanda', 'D': 'Alemanha'},
+        'correta': 'B'}
+
+        {'titulo': 'Quem é o atual presidente dos EUA?',
+        'nivel': 'facil',
+        'opcoes': {'A': 'Joe Biden', 'B': 'Donald Trump', 'C': 'Getulio VArgas', 'D': 'Bolsonaro'},
+        'correta': 'A'}]
 
 
 
