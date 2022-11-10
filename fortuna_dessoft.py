@@ -159,19 +159,77 @@ quest = [{'titulo': 'Qual o resultado da operação 57 + 32?',
           'nivel': 'dificil',
           'opcoes': {'A': 'Uma banda de Rock', 'B': 'Uma marca de luxo', 'C': 'Cidade Francesa', 'D': 'Morte de tecido orgânico'},
           'correta': 'D'}
-        ]
 
-#a partir dessa pergunta, começam as 20 que a gente criou:
-
-{'titulo': 'Quem era o presidente do Brasil em 1953?',
+          {'titulo': 'Quem era o presidente do Brasil em 1953?',
           'nivel': 'medio',
           'opcoes': {'A': 'Dilma', 'B': 'JK', 'C': 'Getulio Vargas', 'D': 'FHC'},
           'correta': 'C'}
 
-{'titulo': 'O que é Necrose?',
-'nivel': 'dificil',
-'opcoes': {'A': 'Uma banda de Rock', 'B': 'Uma marca de luxo', 'C': 'Cidade Francesa', 'D': 'Morte de tecido orgânico'},
+          {'titulo': 'O que é Necrose?',
+          'nivel': 'dificil',
+          'opcoes': {'A': 'Uma banda de Rock', 'B': 'Uma marca de luxo', 'C': 'Cidade Francesa', 'D': 'Morte de tecido orgânico'},
+          'correta': 'D'}]
+
+#a partir dessa pergunta, começam as 20 que a gente criou:
+
+{'titulo': 'Quem era o presidente do Brasil em 1953?',
+'nivel': 'medio',
+'opcoes': {'A': 'Dilma', 'B': 'JK', 'C': 'Getulio Vargas', 'D': 'FHC'},
+'correta': 'C'}
+
+{'titulo': 'Onde fica o Egito?',
+'nivel': 'facil',
+'opcoes': {'A': 'Norte da Africa', 'B': 'Oeste Europeu', 'C': 'Sul da Afica', 'D': 'Nordeste Asiatico'},
+'correta': 'A'}
+
+{'titulo': 'Há quantos anos terminou a segunda Guerra Mundial?',
+'nivel': 'facil',
+'opcoes': {'A': '70 anos', 'B': '77 anos', 'C': '65 anos', 'D': '34 anos'},
+'correta': 'B'}
+
+{'titulo': 'Qual é o ano da Independência do Brasil?',
+'nivel': 'media',
+'opcoes': {'A': '1822', 'B': '1877', 'C': '1865', 'D': '1910'},
+'correta': 'A'}
+
+{'titulo': 'Qual é a capital da Espanha?',
+'nivel': 'facil',
+'opcoes': {'A': 'Barcelona', 'B': 'Madri', 'C': 'Amsterdam', 'D': 'Valencia'},
+'correta': 'B'}
+
+{'titulo': 'Quem descobriu as Américas?',
+'nivel': 'facil',
+'opcoes': {'A': 'Donald Trump', 'B': 'Pedro Alvares Cabral', 'C': 'Cristóvão Colombo', 'D': 'Gandhi'},
+'correta': 'C'}
+
+{'titulo': 'Em que ano iniciou a Revolução Francesa?',
+'nivel': 'medio',
+'opcoes': {'A': '1799', 'B': '1823', 'C': '1917', 'D': '1888'},
+'correta': 'A'}
+
+{'titulo': 'Qual o nome dos protagonistas do jogo The Last Of Us?',
+'nivel': 'medio',
+'opcoes': {'A': 'Joseph e Elliot', 'B': 'Joel e Ellie', 'C': 'Jonathan e Ellen', 'D': 'Juca e Lucia'},
+'correta': 'B'}
+
+{'titulo': 'Qual o nome do rival do personagem Bob Esponja?',
+'nivel': 'facil',
+'opcoes': {'A': 'Pedro', 'B': 'Plonquion', 'C': 'Plancton', 'D': 'Pinoquio'},
+'correta': 'C'}
+
+{'titulo': 'Qual a sigla do vestibular estudantil estaduniense?',
+'nivel': 'facil',
+'opcoes': {'A': 'ENEM', 'B': 'MET', 'C': 'YONG', 'D': 'SAT'},
 'correta': 'D'}
+
+
+
+
+
+
+
+
+
 
 
 
