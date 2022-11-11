@@ -318,3 +318,4 @@ def sorteia_questao(dicionario, nivel):
     lista=dicionario[nivel]
     s = random.choice(lista)
     return s 
+
