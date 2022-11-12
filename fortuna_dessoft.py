@@ -4,8 +4,7 @@ print()
 
 
 
-quest = [
-    {'titulo': 'Qual o resultado da operação 57 + 32?',
+quest = [{'titulo': 'Qual o resultado da operação 57 + 32?',
           'nivel': 'facil',
           'opcoes': {'A': '-19', 'B': '85', 'C': '89', 'D': '99'},
           'correta': 'C'},
@@ -382,3 +381,13 @@ def sorteia_questao(dicionario, nivel):
     lista=dicionario[nivel]
     s = random.choice(lista)
     return s 
+
+def sorteia_questao_inedita (dicionario, nivel, lista):
+    maxi = len(dicionario[nivel])
+    num = random.randint(0,max-1)
+    sorteada = dicionario[nivel][num]
+    while sorteada in lista:
+        num = random.randint(0,max-1)
+        sorteada = dicionario[nivel][num]
+    lista.append(sorteada)
+    return sorteada
