@@ -1,6 +1,5 @@
-import random
-
-quest = [{'titulo': 'Qual o resultado da operação 57 + 32?',
+quest = [
+    {'titulo': 'Qual o resultado da operação 57 + 32?',
           'nivel': 'facil',
           'opcoes': {'A': '-19', 'B': '85', 'C': '89', 'D': '99'},
           'correta': 'C'},
@@ -284,8 +283,6 @@ quest = [{'titulo': 'Qual o resultado da operação 57 + 32?',
 
 
 
-
-
 def transforma_base(lista):
 
     lista_faceis=[]
@@ -313,6 +310,67 @@ def transforma_base(lista):
         dicio={}
 
     return dicio
+
+def valida_questao(questao):
+
+    dicio = {}
+    chaves = ["titulo", "nivel", "opcoes", "correta"]
+    nivels = ["facil", "medio", "dificil"]
+    letras = ["A", "B", "C", "D"]
+
+
+    for chave in chaves:
+
+        if chave not in questao:
+            dicio[chave] = "nao_encontrado"
+
+    if len(questao) != 4:
+        dicio["outro"] = "numero_chaves_invalido"
+
+    if chaves[0] in questao:
+        
+        if questao["titulo"].strip() == "":
+
+            dicio["titulo"] = "vazio"
+    if chaves[1] in questao:
+        if questao["nivel"] not in nivels:
+
+            dicio["nivel"] = 'valor_errado'
+    if chaves[2] in questao:
+
+        if len(questao["opcoes"]) != 4:
+            dicio["opcoes"] = 'tamanho_invalido'
+        else:
+
+            for option in letras:
+                if option not in questao["opcoes"]:
+
+                    dicio["opcoes"] = "chave_invalida_ou_nao_encontrada"
+            
+            for option in letras:
+
+                if questao["opcoes"][option].strip() == "":
+
+                    if "opcoes" not in dicio: 
+
+                        dicio["opcoes"] = {f'{option}': 'vazia'}
+                    else:
+                        dicio["opcoes"][option]  = "vazia"
+    if chaves[3] in questao:
+
+        if questao["correta"] not in letras: 
+
+            dicio["correta"] = 'valor_errado'
+
+    return dicio
+
+def valida_questoes(lista):
+    p_identificado = []
+    for questao in lista:
+        p_ident = valida_questao(questao)
+        p_identificado.append(p_ident)
+    return p_identificado
+
 import random
 def sorteia_questao(dicionario, nivel):
     lista=dicionario[nivel]
