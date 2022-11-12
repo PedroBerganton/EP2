@@ -1,3 +1,9 @@
+n=input("Qual é seu nome?")
+print()
+
+
+
+
 quest = [
     {'titulo': 'Qual o resultado da operação 57 + 32?',
           'nivel': 'facil',
@@ -376,4 +382,3 @@ def sorteia_questao(dicionario, nivel):
     lista=dicionario[nivel]
     s = random.choice(lista)
     return s 
-
