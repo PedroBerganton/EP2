@@ -391,3 +391,49 @@ def sorteia_questao_inedita (dicionario, nivel, lista):
         sorteada = dicionario[nivel][num]
     lista.append(sorteada)
     return sorteada
+def questao_para_texto(dicio,n):
+
+    item = 0
+    rpts = 0
+    num = str(n)
+    A = 0
+    B = 0
+    C = 0
+    D = 0
+
+    for item in dicio:
+        if item == "titulo":
+            titulo = dicio[item]
+        if item == 'opcoes':
+            rpts = dicio[item]
+
+    for letra in rpts:
+        if letra == "A":
+            A = rpts[letra]
+        elif letra == "B":
+            B = rpts[letra]
+        elif letra == "C":
+            C = rpts[letra]
+        elif letra == "D":
+            D = rpts[letra]
+        
+
+    final = "----------------------------------------\nQUESTAO {0}\n\n{1}\n\nRESPOSTAS:\nA: {2}\nB: {3}\nC: {4}\nD: {5}".format(num,titulo,A,B,C,D)
+
+    return final
+import random
+def gera_ajuda(questao):
+    lista = [ "A", "B", "C", "D"]
+    lista.remove(questao["correta"])
+    n = 1
+    ajuda = []
+    max = 3
+    qtsorteio = random.randint(1,2)
+    sor_per = random.randint(1,max-1)
+    while qtsorteio >= n:
+        sor_per = random.randint(0,max-1)
+        if questao["opcoes"][lista[sor_per]] not in ajuda:
+            ajuda.append(questao["opcoes"][lista[sor_per]])
+            n = n + 1
+    ajudas = " | ".join(ajuda)
+    return f"DICA:\nOpções certamente erradas: {ajudas}"  
